@@ -1,0 +1,225 @@
+*{
+    font-family: 'Poppins';
+}
+.header{ width: 1440px;
+    height: 94px;
+    flex-shrink: 0;
+    background-color:#562EFF ;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-bar{ margin: auto;
+    display: flex;
+}
+.icon{
+    width: 40.424px;
+    height: 51px;
+    flex-shrink: 0;
+}
+main{ 
+    justify-content: center;
+    width: 1440px;
+height: 1220px;
+background: #F3F1FF;
+}
+h1{ color: #562EFF;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+}
+h2{padding-left: 15px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 24px;  
+font-weight: 500
+}
+p{ color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+padding-right: 35px;
+}
+.top{margin: auto;
+    padding-top: 20px;
+    width: 870px;
+height: 679px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+}
+.top-player{
+    margin: 33px;
+}
+.player-info{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+}
+.player{
+    display: flex;
+}
+.player-image{
+    width: 56px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 56px;
+background: var(--photo-by-eduardo-dutra, url(<path-to-image>), lightgray 50% / cover no-repeat);
+}
+.playern{
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.Top-Blog{
+    margin: 33px;
+
+}
+.blogs{
+display: grid;
+grid-template-columns: repeat(2,auto);
+}
+.blog{ margin: 10px;
+   display: flex;
+}
+.f{
+   margin: 10px;
+    width: 200px;
+height: 100px;
+flex-shrink: 0;
+}
+.blog-img{
+width: 200px;
+height: 100px;
+flex-shrink: 0;
+}
+h3{ flex-shrink: 0;
+    color: #000;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+
+}
+
+span{
+    color: #9F9F9F;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+}
+.n{color: #562EFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    }
+.lates-course{ margin: 20px auto;
+    width: 870px;
+height: 402px;
+border-radius: 5px;
+background: #FFF;
+}
+.course{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+
+}
+.sec{ height: 200px;
+    width: 240px;
+    margin:25px
+}
+.lc{padding-top: 35px;
+    padding-left: 35px;
+    
+}
+.li{
+    width: 240px;
+height: 120px;
+
+}
+
+.red{
+    width: 89.483px;
+height: 17.362px;
+flex-shrink: 0;
+    color: #ED6B4F;
+    font-family: Roboto;
+    font-size: 14.691px;
+   font-weight: 400;
+}
+.star{
+    width: 74.759px;
+height: 11.809px;
+flex-shrink: 0;
+}
+.clock{border-radius: 14.691px;
+    background: var(--ffe-4-e-8, #FFE4E8);
+    width: 94.826px;
+height: 29.383px;
+display: flex;
+ color: var(--ff-4-a-60, #FF4A60);
+    font-family: Open Sans;
+    font-size: 14.691px;
+    font-weight: 600;
+}
+ 
+
+.c{
+    width: 20.034px;
+height: 20.034px;
+margin-top: 5px;
+margin-left: 5px;
+}
+.time{margin-top: 7px;
+margin-left: 15px;
+ font-family: Open Sans;
+}
+  
+.hour{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:600px)  {
+    .header {
+        width: 580px;
+       flex-shrink: 0;
+        background-color: #562EFF;
+        display: flex;
+       flex-direction: column;}
+
+    .main { justify-content: center;
+          width:580px;
+          height: auto;
+         background: #F3F1FF;
+            justify-content: center;
+           background: #F3F1FF;
+        }
+        .top {
+            margin: auto;
+            padding-top: 20px;
+            width: 580px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            background: #FFF;
+        }
+        .player-info {
+            display: grid;
+            grid-template-columns: repeat(2,auto);
+            grid-template-rows: repeat(3,auto);
+        }
+        .blogs {
+            display: grid;
+            grid-template-columns: repeat(1,auto);
+        }
+        .lates-course {
+            margin: 20px auto;
+            width: 580px;
+            border-radius: 5px;
+            background: #FFF;
+        }
+        .course {
+            display: flex;
+            flex-direction: column;
+        }
+}
